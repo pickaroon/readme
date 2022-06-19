@@ -328,6 +328,19 @@ re-trigger your data fetching script manually if you want to
 repeat the loading process.
 
 
+### Scripting components
+
+The "Library Fetching", "Data Fetching" and "Transformation"
+components allow you to specify [Pickaroon Scripts](#pickaroon-scripts)
+which perform the loading and processing of the messages you're
+interested in.
+
+The "Script Diagnostics" component lists any error messages the
+Typescript compiler produces while transpiling your code into
+JavaScript and can thus be used to detect issues in your script
+that might not necessarily be obvious at runtime.
+
+
 Pickaroon scripts
 -----------------
 
